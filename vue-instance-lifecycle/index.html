@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vue Lifecycle Events</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <script src="vue.js"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <h1 class="title">{{title}}</h1>
+    <button @click="title = 'Changed'">Update Title</button>
+    <button @click="destroy">Destroy</button>
+  </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
